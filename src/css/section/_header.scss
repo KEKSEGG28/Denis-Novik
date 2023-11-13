@@ -1,0 +1,18 @@
+.header {
+  // position: relative;
+  &__link {
+    border-bottom: 1px solid #828282;
+  }
+  &__alink {
+    margin: 32.99px 0 31.98px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    &__link {
+      display: none;
+    }
+    
+  }
+}

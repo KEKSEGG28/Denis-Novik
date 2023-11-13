@@ -1,0 +1,19 @@
+.about {
+  padding: 120px 0 107px;
+  background-color: #f6f6f6;
+  &__title {
+  }
+  &__subtitle {
+    margin: 21px auto 0;
+    max-width: 485px;
+    height: 218px;
+  }
+}
+
+@media (max-width: 500px) {
+  .about {
+    &__subtitle {
+      margin: 29px auto 0;
+    }
+  }
+}

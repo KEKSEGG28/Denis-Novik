@@ -1,0 +1,44 @@
+.hero {
+  padding: 40px 0 104px;
+  &__title {
+    max-width: 124px;
+  }
+  &__text {
+    margin-bottom: 31px;
+    align-items: end;
+  }
+  &__subtitle {
+    max-width: 156px;
+  }
+  &__image {
+    max-width: 940px;
+    height: 387px;
+    background: lightgray;
+    background-position: top;
+    background-size: cover;
+    background-image: url(../image/dn.png);
+  }
+}
+
+@media (max-width: 500px) {
+  .hero {
+    &__image {
+      max-width: 316px;
+      height: 478px;
+      background: lightgray;
+      background-position: top;
+      background-size: cover;
+      background-image: url(../image/dnbig.png);
+      margin: 37px auto 0;
+      padding: 0 29px;
+     
+    }
+    &__text {
+      align-items: unset;
+    }
+    &__subtitle {
+      margin-top: 23px;
+      text-align: start;
+    }
+  }
+}
