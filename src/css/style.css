@@ -89,6 +89,11 @@
   margin-bottom: 31px;
   align-items: end;
 }
+.hero__texts {
+  width: 100%;
+  align-items: end;
+  text-align: start;
+}
 .hero__subtitle {
   max-width: 156px;
 }
@@ -98,7 +103,10 @@
   background: lightgray;
   background-position: top;
   background-size: cover;
-  background-image: url(../image/dn.png);
+  background-image: url(../image/dn.webp);
+}
+.hero__subtitle {
+  text-align: start;
 }
 
 @media (max-width: 500px) {
@@ -108,9 +116,12 @@
     background: lightgray;
     background-position: top;
     background-size: cover;
-    background-image: url(../image/dnbig.png);
+    background-image: url(../image/dnbig.webp);
     margin: 37px auto 0;
     padding: 0 29px;
+  }
+  .hero__texts {
+    display: unset;
   }
   .hero__text {
     align-items: unset;
@@ -164,6 +175,9 @@
   justify-content: space-between;
   max-width: 166px;
   min-height: 206px;
+}
+.card__star {
+  width: 166px;
 }
 .card__subtitle {
   color: #828282;

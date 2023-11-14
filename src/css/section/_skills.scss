@@ -15,7 +15,9 @@
 
   max-width: 166px;
   min-height: 206px;
-
+  &__star {
+    width: 166px;  
+  }
   &__subtitle {
     color: #828282;
     text-align: center;

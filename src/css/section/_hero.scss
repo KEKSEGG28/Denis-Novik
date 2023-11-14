@@ -7,6 +7,11 @@
     margin-bottom: 31px;
     align-items: end;
   }
+  &__texts {
+    width: 100%;
+    align-items: end;
+    text-align: start;
+  }
   &__subtitle {
     max-width: 156px;
   }
@@ -16,7 +21,10 @@
     background: lightgray;
     background-position: top;
     background-size: cover;
-    background-image: url(../image/dn.png);
+    background-image: url(../image/dn.webp);
+  }
+  &__subtitle {
+    text-align: start;
   }
 }
 
@@ -28,10 +36,12 @@
       background: lightgray;
       background-position: top;
       background-size: cover;
-      background-image: url(../image/dnbig.png);
+      background-image: url(../image/dnbig.webp);
       margin: 37px auto 0;
       padding: 0 29px;
-     
+    }
+    &__texts {
+      display: unset;
     }
     &__text {
       align-items: unset;
